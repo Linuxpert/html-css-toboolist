@@ -33,9 +33,10 @@ body {
 /* main */
 /* bottoni inziali */
 #box {
-    width: 80%;
+    width: 70%;
     margin: 30px auto;
     background-color: white;
+    height: 600px;
 }
 
 .button{
@@ -58,7 +59,7 @@ body {
 }
 
 /* New Task */
-#task {
+.task {
     margin: 25px 0px 0px 30px;
 }
 .lista {
@@ -79,3 +80,79 @@ body {
     border-radius: 10px;
 
 }
+
+.lista .viola {
+    background-color: rgb(107, 81, 167);
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    font-size: 10px;
+    font: bold 10px Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.lista .verde {
+    background-color: rgb(111, 230, 184);
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    font-size: 10px;
+    font: bold 10px Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.lista .arancione {
+    background-color: rgb(251, 162, 61);
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    font-size: 10px;
+    font: bold 10px Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.lista .rosa {
+    background-color: rgb(243, 85, 209);
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    font-size: 10px;
+    font: bold 10px Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.lista .verde1 {
+    background-color: rgb(112, 204, 75);
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    font-size: 10px;
+    font: bold 10px Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    color: white;
+    border-radius: 10px;
+
+}
+
