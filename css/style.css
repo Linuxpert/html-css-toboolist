@@ -1,6 +1,45 @@
 /* Generali */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100;1,300;1,400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-boxs;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: gainsboro;
+}
+
+/* header */
+#banner {
+    background-color: white;
+    height: 80px;
+}
+#logo {
+    margin: 10px 5px 0px 20px ;
+    
+    
+}
+#logotext {
+    display: inline-block;
+    font-style: Medium 500;
+    height: 20px;
+}
+
+/* main */
+#box {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.button{
+    margin: 15px;
+    size: 10px;
+}
+.left {
+    margin-left: 50px
 }
