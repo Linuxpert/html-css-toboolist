@@ -33,14 +33,20 @@ body {
 /* main */
 /* bottoni inziali */
 #box {
-    width: 70%;
+    width: 50%;
     margin: 30px auto;
     background-color: white;
     height: 600px;
 }
 
+#bottoni{
+    margin: 0px 0px 0px 30px;
+    padding: 15px;
+
+}
+
 .button{
-    margin: 15px;
+   
     size: 10px;
     padding: 8px; 
     font: bold 12px Arial, Helvetica, sans-serif; 
@@ -51,14 +57,15 @@ body {
 }
 
 .left {
-    margin-left: 50px;
+    
     background-color: rgb(6, 160, 250);
     border: solid 1px #0076a3;
     color: #fff;
     
 }
 
-/* New Task */
+/* main */
+/* lista */
 .task {
     margin: 25px 0px 0px 30px;
 }
@@ -154,5 +161,21 @@ body {
     color: white;
     border-radius: 10px;
 
+}
+
+/* check  */
+.check {
+    size: 5px;
+    color: rgb(92, 149, 7);
+    border: greenyellow solid 1px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.cross {
+    color: rgb(214, 40, 24);
+    border: rgb(214, 40, 24) solid 1px;
+    border-radius: 50px;
+    margin-right: 10px;
 }
 
